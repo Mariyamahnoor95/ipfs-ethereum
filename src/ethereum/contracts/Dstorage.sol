@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-3.0
 
-pragma solidity >=0.4.0 <0.8.0;
+pragma solidity >=0.4.0 <0.8.2;
 
 
-contract Dfilestorage {
-  string public name = 'Dfilestorage';
+contract DStorage {
+  string public name = 'DStorage';
   uint public fileCount = 0;
   mapping(uint => File) public files;
 
